@@ -1,0 +1,128 @@
+$defaultColor: #1abc9c;
+$titleColor: #16a085;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+html,
+body {
+
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: $defaultColor;
+
+    .wrapper {
+        width: 380px;
+        background: #fff;
+        border-radius: 5px;
+
+        .title {
+            padding-left: 20px;
+            font-size: 25px;
+            font-weight: 600;
+            color: #fff;
+            background: $titleColor;
+            border-radius: 5px 5px 0 0;
+            line-height: 90px;
+        }
+
+        form {
+
+            padding: 30px 25px 25px 25px;
+
+            .row {
+                height: 45px;
+                margin-bottom: 15px;
+                position: relative;
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    padding-left: 60px;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 1px solid lightgray;
+                    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+                    font-size: 16px;
+                    transition: all 0.3 ease;
+
+                    &:focus {
+                        border-color: $titleColor;
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                    }
+
+                }
+
+                i {
+                    position: absolute;
+                    width: 47px;
+                    height: 100%;
+                    background: $titleColor;
+                    border: 1px solid $titleColor;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px 0 0 5px;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+
+            .button {
+                input {
+                    padding-left: 0px;
+                    background: $titleColor;
+                    color: #fff;
+                    font-weight: 500;
+                    border: 1px solid $titleColor;
+
+                    &:hover {
+                        background: darken($titleColor, 10%);
+                        border: 1px solid darken($titleColor, 10%);
+                    }
+                }
+            }
+
+            .pass {
+                margin: -8px 0 20px 0;
+
+                a {
+                    color: $titleColor;
+                    font-size: 17px;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+
+                    }
+                }
+
+            }
+
+            .singup-link {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 17px;
+
+                a {
+                    color: $titleColor;
+                    text-decoration: none;
+                    margin-top: 20px;
+                    padding-left: 5px;
+
+                    &:hover {
+                        text-decoration: underline;
+
+                    }
+                }
+            }
+
+        }
+    }
+
+}

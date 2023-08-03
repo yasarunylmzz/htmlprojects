@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #1abc9c;
+}
+html .wrapper,
+body .wrapper {
+  width: 380px;
+  background: #fff;
+  border-radius: 5px;
+}
+html .wrapper .title,
+body .wrapper .title {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  line-height: 90px;
+}
+html .wrapper form,
+body .wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+html .wrapper form .row,
+body .wrapper form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+html .wrapper form .row input,
+body .wrapper form .row input {
+  height: 100%;
+  width: 100%;
+  padding-left: 60px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+  font-size: 16px;
+  transition: all 0.3 ease;
+}
+html .wrapper form .row input:focus,
+body .wrapper form .row input:focus {
+  border-color: #16a085;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+html .wrapper form .row i,
+body .wrapper form .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  background: #16a085;
+  border: 1px solid #16a085;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  font-size: 18px;
+}
+html .wrapper form .button input,
+body .wrapper form .button input {
+  padding-left: 0px;
+  background: #16a085;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid #16a085;
+}
+html .wrapper form .button input:hover,
+body .wrapper form .button input:hover {
+  background: #107360;
+  border: 1px solid #107360;
+}
+html .wrapper form .pass,
+body .wrapper form .pass {
+  margin: -8px 0 20px 0;
+}
+html .wrapper form .pass a,
+body .wrapper form .pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+html .wrapper form .pass a:hover,
+body .wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+html .wrapper form .singup-link,
+body .wrapper form .singup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+html .wrapper form .singup-link a,
+body .wrapper form .singup-link a {
+  color: #16a085;
+  text-decoration: none;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+html .wrapper form .singup-link a:hover,
+body .wrapper form .singup-link a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

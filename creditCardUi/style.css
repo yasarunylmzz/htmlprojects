@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2fd;
+}
+
+.container {
+    position: relative;
+    max-width: 375px;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    border-radius: 15px;
+    padding: 25px;
+    height: 225px;
+    width: 100%;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+header,
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 48px;
+}
+
+header .chip {
+    width: 60px;
+}
+
+.container h5 {
+    color: white;
+}
+
+h6 {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h5.number {
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.container .card-details {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
